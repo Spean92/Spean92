@@ -1,0 +1,229 @@
+body {
+	margin: 0;
+	position: relative;
+	font-family: "Arial";
+}
+p {
+	margin: 0;
+}
+.box {
+	background-color: #dedede;
+	position: relative;
+	min-width: 1000px;
+	max-width: 1260px;
+	height: 900px;
+	margin: 0 auto;
+}
+
+/*---------------------header------------------*/
+.header {
+  background: url("../img/header.png") no-repeat;
+	background-size: cover;
+  position: relative;
+  top: 45px;
+	margin: 0 auto;
+  width: 94%;
+  height: 207px;
+}
+
+/*---------------------left bar----------------*/
+.leftbar {
+	flex: auto;
+  background: url("../img/leftbar.png") no-repeat;
+	background-size: cover;
+  position: absolute;
+  top: 272px;
+	left: 3%;
+  width: 20.5%;
+  height: 375px;
+}
+
+/*---------------------main section------------*/
+.mainsection {
+	position: relative;
+	left: 24.5%;
+	top: 65px;
+	width: 72.5%;
+	height: 375px;
+}
+.adition {
+	color: #bbbbbb;
+}
+/*----------------------------------------------*/
+.offer_header {
+  background-color: #f6f6f6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 115px;
+	margin: 0;
+}
+.offer_header .image img{
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 115px;
+  height: 85px;
+}
+.offer_header .hotel {
+	position: absolute;
+	width: 78.2%;
+	left: 145px;
+	top: 15px;
+	height: 85px;
+}
+.offer_header .hotel p:nth-child(1) {
+	font-size: 15px;
+	font-weight: bold;
+}
+.offer_header .hotel p:nth-child(1) span {
+	font-size: 11px;
+	line-height: 2;
+	color: #B469BD;
+}
+.offer_header .hotel p:nth-child(2) {
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+.offer_header .hotel .mark {
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+	width: 42px;
+	height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	background-color: #00A551;
+	border-radius: 3px;
+}
+.offer_header .hotel p:nth-child(5){
+	font-size: 11px;
+	line-height: 1.545;
+}
+.offer_header .hotel p:last-child>.adition, .rec, .like{
+	font-size: 11px;
+	line-height: 1.636;
+}
+.rec{
+	color: #00A551;
+}
+.like {
+	color: #C83831;
+}
+.mainsection p.title{
+  font-size: 1.125em;
+  color: #1B1B1B;
+  font-weight: bold;
+  line-height: 1.778;
+  text-align: left;
+  position: absolute;
+  left: 15px;
+  top: 125px;
+	padding: 0;
+	margin: 0;
+}
+
+/*------------------------------------------------*/
+.event1 {
+  background: #f2eee0 no-repeat;
+/*  opacity: 0.6;*/
+  position: absolute;
+  left: 0;
+  top: 164px;
+  width: 73.79%;
+  height: 97px;
+}
+.event2 {
+  background-color: #f2eee0;
+/*  opacity: 0.6;*/
+  position: absolute;
+  left: 0;
+  top: 271px;
+  width: 73.79%;
+  height: 97px;
+}
+.event1>img, .event2>img{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	width: 57px;
+  height: 57px;
+}
+.event1 .info_box, .event2 .info_box {
+	position: absolute;
+	width: 175px;
+	height: 57px;
+	left: 82px;
+	top: 20px;
+}
+.event1 .info_box p:first-child, .event2 .info_box p:first-child {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.833;
+}
+.event1 .info_box p:nth-child(2), .event2 .info_box p:nth-child(2) {
+	font-size: 15px;
+	color: #B469BD;
+	font-weight: bold;
+  line-height: 1.467;
+}
+.event1 .info_box p:nth-child(3), .event2 .info_box p:nth-child(3) {
+	font-size: 11px;
+}
+.event1 .second_info_box, .event2 .second_info_box {
+	position: absolute;
+	width: 35.5%;
+  height: 60px;
+	top: 18.5px;
+	left: 297px;
+}
+.event1 .second_info_box img, .event2 .second_info_box img{
+	float: left;
+	width: 22px;
+  height: 22px;
+	margin: 4px 10px 0 25px;
+}
+.event1 .second_info_box p, .event2 .second_info_box p  {
+	font-size: 12px;
+	color: #B469BD;
+	width: 100%;
+	height: 30px;
+}
+.event1 .second_info_box p:last-child, .event2 .second_info_box p:last-child {
+	font-size: 12px;
+	line-height: 2.5;
+	color: #666;
+}
+.event1 .right_box, .event2 .right_box  {
+	position: absolute;
+	right: 15px;
+	top: 18.5px;
+	width: 11px;
+	height: 60px;
+}
+.event1 .right_box img, .event2 .right_box img  {
+	width: 12px;
+}
+.event1 .right_box p, .event2 .right_box p  {
+	font-size: 11px;
+	color: #6BB7E3;
+	line-height: 1;
+}
+.event1 .right_box p:last-child {
+	color: #C83831;
+}
+
+/*------------------------------------------------*/
+.rightbar {
+  background: url("../img/rightbar.png") no-repeat;
+	background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 163px;
+  width: 24.83%;
+  height: 211px;
+}
