@@ -1,0 +1,39 @@
+/* font-family: "Circe-Bold"; */
+@font-face {
+	font-family: "Circe-Bold";
+	src: url("../fonts/Circe-Bold.woff") format("woff"),
+	url("../fonts/Circe-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Circe-ExtraLight"; */
+@font-face {
+	font-family: "Circe-ExtraLight";
+	src: url("../fonts/Circe-ExtraLight.woff") format("woff"),
+	url("../fonts/Circe-ExtraLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Circe-Light"; */
+@font-face {
+	font-family: "Circe-Light";
+	src: url("../fonts/Circe-Light.woff") format("woff"),
+	url("../fonts/Circe-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Circe-Regular"; */
+@font-face {
+	font-family: "Circe-Regular";
+	src: url("../fonts/Circe-Regular.woff") format("woff"),
+	url("../fonts/Circe-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "HelveticaNeueCyr-Bold"; */
+@font-face {
+	font-family: "HelveticaNeueCyr-Bold";
+	src: url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

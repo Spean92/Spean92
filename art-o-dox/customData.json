@@ -1,0 +1,20 @@
+{
+  "owl" : [
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/1.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/2.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/3.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/4.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/4.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/2.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/3.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/5.png'/></a><div class='bg_overlay'></div></div><br>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/2.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/5.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/2.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/1.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/3.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/2.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/3.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section7'><img src='img/butan/5.png'/></a><div class='bg_overlay'></div></div>"}
+  ]
+}

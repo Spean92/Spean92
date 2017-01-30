@@ -1,0 +1,13 @@
+{
+  "owl" : [
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/blouse.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/chair.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/000.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/001.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/blouse.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/chair.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/000.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/001.png'/></a><div class='bg_overlay'></div></div>"},
+      {"item" : "<div class='pic'><a href='#section6'><img width='100%' src='img/butan/002.png'/></a><div class='bg_overlay'></div></div>"}
+  ]
+}
