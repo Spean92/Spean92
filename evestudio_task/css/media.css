@@ -1,0 +1,161 @@
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	.rslides_tabs {
+		width: 100%;
+		bottom: 45px;
+	}
+	#secondSection .storyPictures .box .base div .hoverThing {
+		width: 31%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+		.rslides_tabs {
+		width: 100%;
+		bottom: 30px;
+	}
+	header nav ul li {
+		padding-left: 40px;
+	}
+	 
+	#firstSection .gradientbg .main-slider {
+		width: 100%;
+	}
+	#firstSection .gradientbg .mainText {
+		width: 768px;
+	} 
+	#firstSection .gradientbg .mainText p:nth-child(2) {
+		height: 285px;
+	}
+	#secondSection {
+		height: 1230px;
+	}
+	#secondSection .storyText p:nth-child(4) {
+		width: 760px;
+	}
+	#secondSection .storyPictures .box {
+		height: 900px;
+	}
+	#secondSection .storyPictures .box .base {
+		display: inline-block;
+		width: 340px;
+		margin: 0 30%;
+	}
+	#secondSection .storyPictures .box .base div .hoverThing {
+		width: 340px;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	
+		.rslides_tabs {
+		width: 100%;
+		bottom: 20px;
+	}
+	header nav {
+		display: none;
+	}
+	#firstSection {
+		height: 680px;
+	}
+	#firstSection .gradientbg .main-slider {
+		width: 100%;
+	}
+	#firstSection .gradientbg .mainText {
+		width: 481px;
+	} 
+	#firstSection .gradientbg .mainText p:first-child {
+		font-size: 32px;
+	}
+	#firstSection .gradientbg .mainText p:nth-child(2) {
+		font-size: 52px;
+		height: 100px;
+	}
+	#firstSection .gradientbg .pag div p{
+		font-size: 14px;
+	}
+	#firstSection .gradientbg .pag div p span{
+		font-size: 16px;
+	}
+	#secondSection {
+		height: 1230px;
+	}
+	#secondSection .storyText p:nth-child(4) {
+		width: 481px;
+	}
+	#secondSection .storyPictures .box {
+		height: 900px;
+	}
+	#secondSection .storyPictures .box .base {
+		display: inline-block;
+		width: 340px;
+		margin: 0 22%;
+	}
+	#secondSection .storyPictures .box .base div .hoverThing {
+		width: 340px;
+	}
+	#thirdSection {
+		height: 200px;
+	}
+	#thirdSection .box .numbers {
+		height: 200px;
+	}
+	#thirdSection .box .numbers p:first-child {
+		font-size: 42px;
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	.rslides_tabs {
+		width: 100%;
+		bottom: 30px;
+	}
+	header nav {
+		display: none;
+	}
+	#firstSection {
+		height: 680px;
+	}
+	#firstSection .gradientbg .main-slider {
+		width: 100%;
+	}
+	#firstSection .gradientbg .mainText {
+		width: 400px;
+	} 
+	#firstSection .gradientbg .mainText p:first-child {
+		font-size: 32px;
+	}
+	#firstSection .gradientbg .mainText p:nth-child(2) {
+		font-size: 52px;
+		height: 100px;
+	}
+	#firstSection .gradientbg .pag div p{
+		font-size: 12px;
+	}
+	#firstSection .gradientbg .pag div p span{
+		font-size: 12px;
+	}
+	#secondSection {
+		height: 1230px;
+	}
+	#secondSection .storyText p:nth-child(4) {
+		width: 400px;
+	}
+	#secondSection .storyPictures .box {
+		height: 900px;
+	}
+	#secondSection .storyPictures .box .base {
+		display: inline-block;
+		width: 340px;
+		margin: 0 10%;
+	}
+	#secondSection .storyPictures .box .base div .hoverThing {
+		width: 340px;
+	}
+	#thirdSection {
+		height: 200px;
+	}
+	#thirdSection .box .numbers {
+		height: 200px;
+	}
+	#thirdSection .box .numbers p:first-child {
+		font-size: 42px;
+	}
+}

@@ -1,0 +1,358 @@
+.box {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+/**/
+/*Header*/
+/**/
+header {
+	position: relative;
+	height: 75px;
+	margin-bottom: -75px;
+	z-index: 3;
+}
+header .logo img{
+	margin-top: 30px;
+	width: 86px;
+	height: 23px;
+}
+header nav {
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	display: inline-block !important;
+	position: static !important;
+	list-style: none;
+	padding-left: 54px;
+}
+header nav ul li a{
+	text-decoration: none;
+	padding: 0 !important;
+	color: white;
+	background: none !important;
+	font-size: 14px;
+	font-family: 'montserratregular';
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-transition: all 0.6s ease;
+  	 -moz-transition: all 0.6s ease;
+  		-ms-transition: all 0.6s ease;
+  		 -o-transition: all 0.6s ease;
+  				transition: all 0.6s ease;
+}
+header nav ul li a:focus {
+	color: #efd789 !important;
+}
+header nav ul li a:hover {
+	color:#efd789;
+	background: none !important;
+}
+
+header nav ul > li > a:after {
+	bottom: -15px;
+	content: "";
+	height: 3px;
+	left: 0;
+	position: absolute;
+	-webkit-transition: all 0.4s ease 0s;
+		 -moz-transition: all 0.4s ease 0s;
+			-ms-transition: all 0.4s ease 0s;
+			 -o-transition: all 0.4s ease 0s;
+					transition: all 0.4s ease 0s;
+	width: 0%;
+}
+header nav ul > li > a:hover:after {
+	background-color:#efd789;
+	width: 100%;
+}
+/**/
+/*First section*/
+/**/
+#firstSection {
+	width: 100%;
+	height: 1000px;
+	background: url(../img/background.png) no-repeat center;
+}
+#firstSection .gradientbg {
+	height: inherit;
+	position: relative;
+	-webkit-background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 228, 139, 0.9));
+		 -moz-background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 228, 139, 0.9));
+			-ms-background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 228, 139, 0.9));
+			 -o-background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 228, 139, 0.9));
+					background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 228, 139, 0.9));
+}
+#firstSection .gradientbg .main-slider{
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+.rslides1_on {
+	top: -50px;
+}
+#firstSection .gradientbg .mainText {
+	width: 800px;
+	height: 78%;
+	margin: 0 auto;
+	padding-top: 230px;
+	text-align: center;
+}
+#firstSection .gradientbg .mainText p:first-child {
+  font-size: 72px;
+  font-family: 'kaushan_scriptregular';
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+}
+#firstSection .gradientbg .mainText p:nth-child(2) {
+	margin-top: 25px;
+	font-size: 150px;
+	height: 260px;
+	font-family: 'montserratregular';
+	color: rgb(255, 255, 255);
+  font-weight: bold;
+	text-transform: uppercase;
+  line-height: 0.933;
+  text-align: center;
+}
+#firstSection .gradientbg .mainText hr {
+	margin-top: 70px;
+	width: 60px;
+	height: 3px;
+	background-color: white;
+}
+#firstSection .gradientbg .mainText a{
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 14px;
+	padding: 10px 30px;
+	border: 3px solid white;
+	font-family: 'montserratregular';
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+	-webkit-transition: all 0.6s ease;
+  	 -moz-transition: all 0.6s ease;
+  		-ms-transition: all 0.6s ease;
+  		 -o-transition: all 0.6s ease;
+  				transition: all 0.6s ease;
+}
+
+#firstSection .gradientbg .mainText a:hover {
+	color: #95e1d3;
+	text-decoration: none;
+	border-color: #95e1d3;
+}
+/**/
+#firstSection .gradientbg .pag li {
+	display: inline-block;
+	vertical-align: bottom;
+	width: 22%;
+	height: 80px;
+	margin-top: 6%;
+	margin-left: 2%;
+	color: white;
+	text-transform: uppercase;
+}
+#firstSection .gradientbg .pag div hr{
+  background-color: #fff;
+  opacity: 0.502;
+  width: 100%;
+  height: 3px;
+}
+#firstSection .gradientbg .pag div p{
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: left;
+	color: white;
+}
+#firstSection .gradientbg .pag div p span{
+	font-size: 24px;
+	font-weight: bold;
+}
+.rslides_tabs {
+	list-style: none;
+	position: absolute;
+	height: 50px;
+	bottom: 40px;
+	width: 1200px;
+	text-align: center;
+}
+.rslides_tabs li {
+	display: inline-block;
+	width: 25%;
+	height: 50px;
+	margin-left: ; 
+}
+.rslides_tabs a {
+	height: 50px;
+	display: block;
+	opacity: 0;
+}
+/**/
+/*Second Section*/
+/**/
+#secondSection {
+	width: 100%;
+	height: 730px;
+}
+#secondSection .storyText {
+	padding-top: 90px;
+}
+#secondSection .storyText p:first-child {
+  font-size: 24px;
+  font-family: "kaushan_scriptregular";
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+}
+#secondSection .storyText p:nth-child(2) {
+	margin-top: 10px;
+  font-size: 30px;
+  font-family: "montserratregular";
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+#secondSection .storyText hr {
+	margin-top: 30px;
+  background-color: #F38181;
+  width: 60px;
+  height: 3px;
+}
+#secondSection .storyText p:nth-child(4) {
+	width: 954px;
+  height: 39px;
+	margin: 45px auto 0 auto;
+  font-size: 15px;
+  font-family: "robotoregular";
+  color: #999;
+  line-height: 1.6;
+  text-align: center;
+}
+#secondSection .storyPictures .box {
+	height: 300px;
+	padding: 25px 0;
+	margin-top: 75px;
+}
+#secondSection .storyPictures .box .base {
+	display: inline-block;
+	width: 31%;
+  height: 250px;
+	margin: 0 8px;
+	background-color: #95e1d3;
+}
+#secondSection .storyPictures .box .base div {
+	width: 100%;
+  height: 250px;
+	-webkit-transition: all 0.4s ease;
+  	 -moz-transition: all 0.4s ease;
+  		-ms-transition: all 0.4s ease;
+  		 -o-transition: all 0.4s ease;
+  				transition: all 0.4s ease;
+}
+#secondSection .storyPictures .box .base .img1 {
+	background: url(../img/storypic1.png) no-repeat center;
+}
+#secondSection .storyPictures .box .base .img2 {
+	background: url(../img/storypic2.png) no-repeat center;
+}
+#secondSection .storyPictures .box .base .img3 {
+	background: url(../img/storypic3.png) no-repeat center;
+}
+#secondSection .storyPictures .box .base div .hoverThing {
+	background: linear-gradient(to bottom, rgba(243,129,129,0.7), rgba(252,227,138,0.7));
+	width: 372px;
+  height: 250px;
+	padding-top: 100px;
+	text-align: center;
+	font-family: "montserratregular";
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+#secondSection .storyPictures .box .base:hover div[class^="img"] { 
+	margin-top: -10px;
+	margin-left: -10px;
+}
+#secondSection .storyPictures .box .base:hover .hoverThing {
+	opacity: 1;
+}
+/**/
+/*Third Section*/
+/**/
+#thirdSection {
+	width: 100%;
+	height: 270px;
+	background: #95e1d3;
+}
+#thirdSection .box .numbers {
+	padding: 0;
+	margin: 0 0 0 -5px;
+	border: 1px solid #BBF0E6;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: 270px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+#thirdSection .box .numbers p:first-child {
+	padding-top: 65px;
+	font-family: "montserratregular";
+  font-size: 72px;
+  font-weight: bold;
+}
+#thirdSection .box .numbers p:last-child {
+	font-family: "montserratregular";
+  font-size: 14px;
+}
+/**/
+/*footer*/
+/**/
+footer {
+	width: 100%;
+	height: 50px;
+	background: grey;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+}
+
+b {
+	font-weight: normal;
+	color: green;
+}
+
+span>span {
+	color: green;
+}
+mark {
+	background: none;
+	color: green;
+}
