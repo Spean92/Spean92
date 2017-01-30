@@ -1,0 +1,1573 @@
+@font-face {
+    font-family: OpenSans-Bold; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-BoldItalic; /* Имя шрифта */
+    src: url(../fonts/OpenSans-BoldItalic.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-ExtraBold; /* Имя шрифта */
+    src: url(../fonts/OpenSans-ExtraBold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-ExtraBoldItalic; /* Имя шрифта */
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-italic; /* Имя шрифта */
+    src: url(../fonts/OpenSans-italic.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-Light; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-LightItalic; /* Имя шрифта */
+    src: url(../fonts/OpenSans-LightItalic.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-Regular; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-Semibold; /* Имя шрифта */
+    src: url(../fonts/OpenSans-Semibold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: OpenSans-SemiboldItalic; /* Имя шрифта */
+    src: url(../fonts/OpenSans-SemiboldItalic.ttf); /* Путь к файлу со шрифтом */
+   }
+::selection {
+    background: #03bd05;
+}
+a:hover, a:visited {
+        text-decoration: none !important;
+}
+#main_header > nav > div > img {
+  display: none;
+}
+body {
+    font-family: OpenSans-Regular;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    /*overflow-x: hidden;*/
+    /*overflow-y: scroll;*/
+}
+/*header*/
+#main_header {
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    padding-top: 20px;
+    height: 100vh;
+    background: url(../img/caribs/top_bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: 13%;
+}
+#main_header nav {
+    position: relative;
+}
+#main_header nav ul.nav {
+    display: block;
+    width: 340px;
+    margin: 0 auto;
+margin-top: -58px;
+}
+#main_header nav ul.nav li{
+    display: inline-block;
+}
+#main_header nav ul li a{
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    color: white;
+    background: none;
+}
+#main_header nav>ul li a:after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    -webkit-transition: width 0.3s linear;
+    -moz-transition: width 0.3s linear;
+    -o-transition: width 0.3s linear;
+    transition: width 0.3s linear;
+}
+#main_header nav ul li a:hover{
+    background: none !important;
+}
+#main_header nav ul li a:hover:after{
+    width: 100%;
+}
+#main_header nav .phone {
+    display: inline-block;
+    float: right;
+    height: 27px;
+    width: 170px;
+    margin-top: -40px;
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    line-height: 27px;
+    background-color: white;
+    border-radius: 100px;
+}
+#main_header nav .social_share_wrapper {
+    position: absolute;
+    right: 50px;
+    padding-top: 10px;
+}
+#main_header nav .social_share_wrapper ul li a i {
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+#main_header nav .social_share_wrapper ul li a i:hover{
+    transform: scale(1.3, 1.3);
+}
+div.page_title{
+    visibility: hidden;
+    text-align: center;
+    z-index: 20;
+}
+.fadeIn {
+    margin-top: 20vh;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 0.7s;
+    -webkit-animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    visibility: visible !important;
+}
+#main_header>div p {
+    text-decoration: none;
+    font-family: OpenSans-SemiboldItalic;
+    font-size: 16px;
+        letter-spacing: 1.5px;
+    display: inline-block;
+}
+#main_header>.page_title p:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+#main_header div h1 {
+    font-family: OpenSans-Bold;
+    font-size: 60px;
+    letter-spacing: 2px;
+        /*text-shadow: 5px 5px 5px blue;*/
+}
+/*timer*/
+.timer {
+/*    margin-top: 150px;*/
+    background: rgba(0, 214, 4, 0.8);
+    width: 50%;
+    max-width: 430px;
+    height: 190px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    /*left: 69%;*/
+    left: 0;
+    /*transform: translateX(-50%);*/
+}
+#main_header div.timer p:first-child {
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#main_header div.timer a {
+    display: inline-block;
+    margin-top: 30px;
+}
+#main_header div.timer a span{
+    color: black;
+    background: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    -webkit-transition: color .2s linear,background .1s linear;
+    -moz-transition: color .2s linear,background .1s linear;
+    -ms-transition: color .2s linear,background .1s linear;
+    -o-transition: color .2s linear,background .1s linear;
+    transition: color .2s linear,background .1s linear;
+}
+#main_header div.timer a span:hover{
+    color: white;
+    background: rgba(255, 101, 0, 0.9);
+    background-color: rgba(255, 101, 0, 1);
+    border-color: rgba(255, 101, 0, 0.9);
+}
+/*Section 1*/
+.tour_info {
+    border-bottom: 1px solid #e1e1e1;
+    height: 128px;
+    clear: both;
+}
+
+.tour_info div>div {
+    display: table-cell;
+    /*vertical-align: middle;*/
+    height: 115px;
+    border-left: 1px solid #e1e1e1;
+    width: 195px;
+    text-align: center;
+    padding-top: 5px;
+}
+.tour_info div>div:nth-child(1) span {
+      line-height: 24px;
+}
+.tour_info div>div:nth-child(3) {
+    width: 20%
+}
+.tour_info div>div:nth-child(3) span {
+    line-height: 32px;
+}
+.tour_info div>div:nth-child(4) {
+    width: 20%
+}
+.tour_info div>div:last-child {
+    border-right: 1px solid #e1e1e1;
+    vertical-align: middle;
+    padding-top: 0;
+}
+.tour_info div>div p{
+    text-align: center;
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.tour_info div .price {
+    color: #03bd05;
+}
+
+.tour_info div>div p span{
+    font-family: OpenSans-SemiboldItalic;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #929496;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+.old_price{
+    vertical-align: middle;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #000 !important;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.old_price1{
+    vertical-align: middle;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #000 !important;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.big_red {
+    font-weight: bold;
+    color: #60ff00 !important;
+    font-size: 19px;
+    vertical-align: middle;
+}
+.take span {
+    color: white;
+    background-color: #03bd05;
+    font-family: OpenSans-ExtraBold !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: .8em 10px .8em 10px !important;
+    border: 2px solid #03bd05;
+    text-transform: uppercase !important;
+    text-shadow: none !important;
+    -webkit-appearance: none;
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 0 !important;
+    border-radius: 25px;
+    -webkit-transition: color .2s linear,background .1s linear;
+    -moz-transition: color .2s linear,background .1s linear;
+    -ms-transition: color .2s linear,background .1s linear;
+    -o-transition: color .2s linear,background .1s linear;
+    transition: color .2s linear,background .1s linear;
+
+    background: #03bd05;
+    background-color: #03bd05;
+    border-color: #03bd05;
+}
+.take span:hover{
+    background: rgba(255, 101, 0, 0.9);
+    background-color: rgba(255, 101, 0, 1);
+    border-color: rgba(255, 101, 0, 0.9);
+}
+
+/*Section 2*/
+#tour_program {
+    margin-top: 17px;
+    overflow: hidden;
+}
+header h2 {
+    text-align: center;
+    font-family: OpenSans-Bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+header .green_text {
+    text-align: center;
+    font-family: OpenSans-SemiboldItalic;
+    color: #03bd05;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.green_text {
+    font-family: OpenSans-SemiboldItalic;
+    color: #03bd05;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#tour_program article>p {
+    font-family: OpenSans-Regular;
+    color: #4c4b4b;
+    font-size: 13px;
+    line-height: 1.9;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+#tour_program article>p>br{
+    line-height: 3;
+}
+.video_box {
+	text-align: center;
+	margin-bottom: 40px;
+    height: 590px;
+}
+#days {
+  -webkit-transition: height 0.3s ease-out;
+  -moz-transition: height 0.3s ease-out;
+  -o-transition: height 0.3s ease-out ;
+  transition: height 0.3s ease-out;
+}
+#more_days {
+  display: block;
+text-align: center;
+width: 100%;
+margin-left: -480px;
+margin-bottom: 110px;
+cursor: pointer;
+}
+#more_days img{
+width: 1920px;
+}
+article>div>p:last-child {
+    font-family: OpenSans-Regular;
+    color: #4c4b4b;
+    font-size: 13px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+article>div>h4 {
+    font-family: OpenSans-SemiBold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    line-height: 1.8;
+}
+.soc_media {
+    height: 50px;
+    margin-bottom: 50px;
+}
+#map iframe {
+    pointer-events: none;
+}
+/*Soc media*/
+.social_share_wrapper {
+    float: none;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.social_share_wrapper ul {
+    display: block;
+    clear: both;
+    list-style: none;
+    margin: 0;
+    margin-left: 0 !important;
+    padding: 0;
+}
+.social_share_wrapper ul li {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.social_share_wrapper ul li a {
+    padding: 0 5px 0 5px;
+    color: #000;
+    text-decoration: none;
+}
+.social_share_wrapper i {
+    font-size: 24px;
+}
+/*Photo*/
+#photos {
+    text-align: center;
+    margin-bottom: 60px;
+}
+#photos>div {
+    display: inline-block;
+    position: relative;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 33%
+}
+#photos>div a img {
+    width: 100%
+}
+#photos>div>div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding-left: 20px;
+    transition: all linear 0.3s;
+}
+#photos>div:nth-child(10)>div p:last-child, #photos>div:nth-child(11)>div p:last-child, #photos>div:nth-child(12)>div p:last-child {
+    font-size: 19px;
+}
+#photos>.pic:hover div{
+    background: rgba(4, 189, 7, 0.9);
+    cursor: pointer;
+}
+#photos>div>div p:first-child {
+    font-family: OpenSans-SemiboldItalic;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+#photos>div>div p:last-child {
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+.fa-play-circle-o {
+    position: absolute;
+    color: rgba(255,255,255, 0.8);
+    top: 50%;
+    left: 50%;
+    font-size: 110px;
+    transform: translate3d(-50%, -50%, 0);
+    transition: all .3s linear;
+}
+#photos>.pic:hover .fa-play-circle-o{
+    color: rgba(4, 189, 7,1);
+    font-size: 130px;
+    cursor: pointer;
+}
+/*Reviews*/
+#reviews {
+	text-align: center;
+}
+#reviews div{
+	display: inline-block;
+	margin: 0 10px 70px 10px;
+    width: 31%;
+    height: 225px;
+}
+#reviews div:nth-child(2){
+    margin-left: 0;
+}
+#reviews div:last-child{
+    margin-right: 0;
+}
+/*Also*/
+#tour_info {
+    position: relative;
+}
+#tour_info:after {
+    content: ' ';
+    position: absolute;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    top: 324px;
+}
+#also {
+    position: relative;
+    /*display: none;*/
+}
+#also>div {
+    width: 47%;
+    padding: 20px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#also .left_side {
+    float: left;
+}
+#also .right_side {
+    float: right;
+}
+#also>div>div{
+    border-top: 3px solid #03bd05;
+    background-color: #f7f7f8;
+    text-align: left;
+    text-transform: none;
+    padding: 30px;
+    padding-left: 15px;
+}
+#also>.right_side>h3:before {
+    content: " ";
+    position: absolute;
+    border-left: 1px solid #e1e1e1;
+    height: 196px;
+    left: 50%;
+    top: 0px;
+}
+#also>div>h3 {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#also>div>h3>i{
+    display: block;
+    font-size: 35px;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: alls ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+        margin-top: 10px;
+}
+#also>div>h3>svg{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 86px;
+    width: 60px;
+    -webkit-transition: all cubic-bezier(0.47, 0.42, 0.41, 1.61) .5s;
+    -moz-transition: all cubic-bezier(0.47, 0.42, 0.41, 1.61) .5s;
+    -ms-transition: all cubic-bezier(0.47, 0.42, 0.41, 1.61) .5s;
+    -o-transition: all cubic-bezier(0.47, 0.42, 0.41, 1.61) .5s;
+    transition: all cubic-bezier(0.47, 0.42, 0.41, 1.61) .5s;
+}
+#also>div>h3:hover svg{
+    fill: #03bd05;
+    -webkit-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+
+    stroke: #03bd05;
+}
+#also>div>h3:hover svg>g>path {
+    stroke: #03bd05;
+}
+#also > div > div > p {
+    margin-bottom: 10px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+#also > div > div > ul> li{
+    font-size: 13px;
+}
+/*buy*/
+#buy {
+    clear: both;
+	background: url(../img/caribs/second_bg.jpg) no-repeat center;
+	background-size: cover;
+	height: 420px;
+	padding-top: 80px;
+	position: relative;
+}
+#buy div {
+    border: 2px solid #000;
+	width: 560px;
+	height: 280px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+}
+#buy div p:nth-child(2), #buy div p:nth-child(3), #buy div p:nth-child(4) {
+/*	padding-top: 50px;*/
+	font-family: OpenSans-SemiboldItalic;
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+#buy div p:nth-child(4) {
+  margin-bottom: 50px;
+
+}
+#buy div p:first-child {
+	font-family: OpenSans-SemiBold;
+	font-size: 30px;
+	color: #000;
+	text-transform: uppercase;
+	/*margin-bottom: 50px;*/
+}
+/*gallery*/
+#photos header {
+	margin: 55px auto;
+}
+#gallery {
+    text-align: center;
+}
+#gallery>div {
+    display: inline-block;
+    position: relative;
+    margin-right: 2px;
+    width: 33%;
+}
+#gallery>div a img {
+    width: 100%;
+}
+#gallery>div>div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding-left: 40px;
+    transition: all linear 0.3s;
+}
+#gallery>.pic:hover div{
+    background: rgba(4, 189, 7, 0.9);
+    cursor: pointer;
+}
+#gallery>div>div p:first-child {
+    font-family: OpenSans-SemiboldItalic;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+#gallery>div>div p:last-child {
+    font-family: OpenSans-SemiBold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+/*popup*/
+#tour_book_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: none;
+}
+.tour_book_content {
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    position: relative;
+    color: #fff;
+}
+#tour_book_wrapper>.tour_book_content>#booking_cancel_btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9;
+    color: #fff !important;
+    cursor: pointer;
+}
+#booking_cancel_btn i {
+    font-size: 24px;
+    font-weight: normal;
+}
+.tour_book_form {
+    display: table-cell;
+    vertical-align: middle;
+}
+.tour_book_form_wrapper {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+h2.ppb_title {
+    font-weight: 700;
+}
+h2.ppb_title {
+    font-size: 30px;
+    line-height: 30px;
+}
+h2.ppb_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 5px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.tour_book_form h2 {
+    color: #fff;
+}
+#ajax-contact-form {
+    margin-top: 50px;
+}
+.one_half {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.tour_book_form label {
+    color: #fff !important;
+}
+#commentform label, label {
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Raleway','Helvetica Neue',Arial,Verdana,sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: #000;
+}
+.tour_book_form input[type=text], .tour_book_form textarea {
+    background: transparent !important;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 90%;
+}
+input[type=text], input[type=password], input[type=email], input[type=date], input.wpcf7-text {
+    padding: 8px 10px 7px 10px;
+    font-size: 100%;
+    margin: 0;
+    font-family: 'Raleway','Helvetica Neue',Arial,Verdana,sans-serif;
+    border: 2px solid #e1e1e1;
+    -webkit-transition: background linear .2s,box-shadow linear .2s;
+    -moz-transition: background linear .2s,box-shadow linear .2s;
+    -o-transition: background linear .2s,box-shadow linear .2s;
+    transition: background linear .2s,box-shadow linear .2s;
+    outline: 0;
+}
+.one_half.last {
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    clear: right;
+}
+.clear {
+    clear: both;
+}
+.one {
+    clear: both;
+    position: relative;
+}
+textarea {
+    font-size: 100%;
+    border: 2px solid #e1e1e1;
+    margin: 0;
+    overflow: auto;
+    padding: 8px 10px 7px 10px;
+    font-family: 'Raleway','Helvetica Neue',Arial,Verdana,sans-serif;
+}
+.tour_book_form input[type=text], .tour_book_form textarea {
+    background: transparent !important;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 90%;
+}
+.tour_book_form textarea {
+    width: 95%;
+}
+input[type=submit], input[type=button], a.button, .button, .woocommerce .page_slider a.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: .8em 1.7em .8em 1.7em !important;
+    color: #fff;
+    background: #4885a2;
+    border: 2px solid #4885a2;
+    text-transform: uppercase !important;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Raleway','Helvetica Neue',Arial,Verdana,sans-serif;
+    text-shadow: none;
+    text-shadow: none !important;
+    -webkit-appearance: none;
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 0 !important;
+    border-radius: 25px;
+    -webkit-transition: color .2s linear,background .1s linear;
+    -moz-transition: color .2s linear,background .1s linear;
+    -ms-transition: color .2s linear,background .1s linear;
+    -o-transition: color .2s linear,background .1s linear;
+    transition: color .2s linear,background .1s linear;
+}
+input[type=submit] {
+    color: white;
+    background: #03bd05;
+    background-color: #03bd05;
+    border-color: #03bd05;
+}
+input[type=submit]:hover {
+    background: rgba(255, 101, 0, 0.9);
+    background-color: rgba(255, 101, 0, 1);
+    border-color: rgba(255, 101, 0, 0.9);
+}
+.parallax_overlay, .parallax_overlay_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+}
+.parallax_overlay_header.tour {
+    background-color: rgba(0,0,0,0.6);
+}
+/*footer*/
+footer {
+    clear: both;
+    text-align: center;
+    background-color: black;
+}
+footer .wrapper1 {
+    color: #aaaaaa;
+	padding: 50px 0 50px 0;
+}
+
+footer .wrapper1 .for_footer {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width:25%;
+}
+footer .wrapper1 .for_footer  h4{
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+footer .wrapper1 .for_footer:first-child p {
+    margin-top: 16px;
+}
+footer .wrapper1 .for_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer .wrapper1 .for_footer ul li {
+    margin-bottom: 10px;
+}
+footer .wrapper1 .for_footer ul li i{
+    margin-right: 10px;
+}
+footer .wrapper1 .for_footer  a{
+    color: #aaaaaa;
+    margin-bottom: 5px;
+}
+footer .wrapper1 .for_footer  a:hover{
+    color: white;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -ms-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear;
+}
+footer .wrapper1 .for_footer:last-child  a{
+    color: #aaaaaa;
+    border: 2px solid #444;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px;
+}
+footer .wrapper1 .for_footer:last-child  a:hover{
+    color: white;
+    border: 2px solid #e1e1e1;
+    -webkit-transition: color .2s linear;
+    -moz-transition: color .2s linear;
+    -ms-transition: color .2s linear;
+    -o-transition: color .2s linear;
+    transition: color .2s linear;
+}
+footer .wrapper2 {
+    background-color: white;
+    color: #999999;
+    text-align: right;
+    padding: 15px 0 6px 0;
+}
+
+footer .wrapper2 .soc_media_foot .social_share_wrapper {
+    padding: 0;
+    text-align: left;
+}
+footer .wrapper2 ul li a {
+     opacity: 0.4;
+}
+footer .wrapper2 ul li a:hover {
+    opacity: 1;
+}
+footer .wrapper2 p{
+    margin-top: -22px;
+}
+#toTop i {
+    color: #fff;
+    font-size: 1.5em;
+}
+#toTop {
+    width: 45px;
+    background: #666;
+    opacity: 0;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: color 300ms,background-color 300ms,opacity 300ms;
+    -moz-transition: color 300ms,background-color 300ms,opacity 300ms;
+    -o-transition: color 300ms,background-color 300ms,opacity 300ms;
+    -webkit-transition: color 300ms,background-color 300ms,opacity 300ms;
+    z-index: 999;
+    border-radius: 5px;
+}
+#toBottom {
+   width: 45px;
+   background: rgb(0, 214, 4);
+   opacity: 0;
+   text-align: center;
+   padding: 6px 10px 6px 10px;
+   position: absolute;;
+   bottom: 20px;
+   left: 50%;
+   margin-left: -24px;
+   cursor: pointer;
+   transition: color 300ms,background-color 300ms,opacity 300ms;
+   -moz-transition: color 300ms,background-color 300ms,opacity 300ms;
+   -o-transition: color 300ms,background-color 300ms,opacity 300ms;
+   -webkit-transition: color 300ms,background-color 300ms,opacity 300ms;
+   z-index: 999;
+   border-radius: 5px;
+}
+#toBottom:hover {
+opacity: 1 !important;
+}
+#toBottom a{
+  color: white;
+  font-size: 1.5em;
+
+}
+@media all and (max-width: 1024px) {
+    #also>div>h3>svg {
+        /*margin-top: 30px;*/
+        padding-bottom: 0;
+        padding-bottom: 0;
+        height: 66px;
+        margin-bottom: 5px;
+    }
+    #main_header div h1 {
+    -webkit-text-stroke: 0.5px blue;
+    }
+}
+@media all and (min-width: 769px) and (max-width: 970px){
+    .timer {
+        min-width:460px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+        /*Section 1*/
+    .tour_info {
+        height: auto;
+        border-bottom: none;
+    }
+    .tour_info div>div {
+        display: block;
+        height: 100px;
+        border-left: none;
+        border-bottom: 1px solid #AAA;
+        width: 100% !important;
+    }
+    .tour_info div>div:nth-child(3) {
+        padding-top: 0px;
+    }
+    .tour_info div>div:last-child {
+        border-right: none;
+        width: 100%;
+        /*padding-top: 20px;*/
+    }
+    .tour_info div>div p {
+        margin-top: 0px;
+    }
+    .tour_info div>div a {
+        display: block;
+        padding-top: 40px;
+    }
+    .video_box {
+        height: 440px;
+    }
+        /*Photo*/
+    #photos>div {
+        width: 49%
+    }
+    /*Reviews*/
+    #reviews div{
+        width: 90%;
+        height: 360px;
+    }
+    /*gallery*/
+    #gallery>div {
+        width: 49%;
+    }
+    #tour_info:after {
+        display: none;
+    }
+    #also>.right_side>h3:before {
+        display: none;
+    }
+
+    #also>div {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    #also .left_side {
+        padding-bottom: 0;
+    }
+    #also .right_side {
+        padding-top: 0;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px){
+    /*header*/
+    #main_header {
+        padding-top: 20px;
+            /*margin-bottom: 190px;*/
+    }
+    #main_header nav ul.nav {
+        display: none;
+    }
+    #main_header > nav > img {
+          width: 70px !important;
+        }
+    #main_header nav a#mobile_nav_icon {
+        display: block !important;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+        border-bottom: 10px double #fff;
+        border-top: 3px solid #fff;
+        height: 17px;
+        width: 25px;
+        float: left;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        display: none;
+        cursor: pointer;
+    }
+    #main_header nav ul.mobile_menu {
+        width: 30%;
+        position: absolute;
+        top: 75px;
+        background: rgba(0,0,0,0.7);
+        padding: 0;
+        left: 60px;
+    }
+    #main_header nav ul.mobile_menu li{
+        list-style: none;
+        padding: 10px;
+        padding-left: 25px;
+    }
+    #main_header nav .phone {
+        margin-top: 0;
+    }
+    #main_header div h1 {
+    font-size: 47px;
+    -webkit-text-stroke: 0.5px blue;
+    }
+    #main_header div h1>span{
+      font-size: 42px !important;
+    }
+    #main_header>div:nth-child(2) {
+    margin-top: 25vh;
+}
+    .timer {
+        min-width: 100%;
+        left:50%;
+        transform: translateX(-50%);
+            margin-bottom: -190px;
+    }
+    /*Section 1*/
+    .tour_info {
+        height: auto;
+        border-bottom: none;
+    }
+    .tour_info div>div {
+        display: block;
+        height: 100px;
+        border-left: none;
+        border-bottom: 1px solid #AAA;
+        width: 100% !important;
+    }
+    .tour_info div>div:nth-child(2) span {
+          line-height: 45px;
+    }
+    .tour_info div>div:nth-child(3) {
+        padding-top: 0px;
+    }
+    .tour_info div>div:nth-child(4) span {
+          line-height: 45px;
+    }
+    .tour_info div>div:last-child {
+        border-right: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .tour_info div>div p {
+        margin-top: 0px;
+    }
+    .tour_info div>div a {
+        display: block;
+        padding-top: 20px;
+    }
+    .video_box {
+        height: 280px;
+    }
+    /*Photo*/
+    #photos>div {
+        width: 95%
+    }
+    /*Reviews*/
+    #reviews div{
+        width: 95%;
+    }
+    /*also*/
+    #tour_info:after {
+        display: none;
+    }
+    #also>.right_side>h3:before {
+        display: none;
+    }
+    #also>div {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    #also>div>h3>svg {
+        /*margin-top: 30px;*/
+        padding-bottom: 10px;
+        height: 76px;
+        margin-bottom: -15px;
+    }
+    #also .left_side {
+        padding-bottom: 0;
+    }
+    #also .right_side {
+        padding-top: 0;
+    }
+    /*buy*/
+    #buy div {
+       width: 460px;
+    }
+    /*gallery*/
+    #gallery>div {
+        width: 49%;
+    }
+
+    footer .wrapper1 .for_footer {
+        display: block;
+        text-align: left;
+        vertical-align: top;
+        width: 320px !important;
+        margin: 20px auto;
+    }
+    footer .wrapper1 .for_footer h4 {
+        margin-bottom: 10px;
+    }
+    /*popup*/
+    .tour_book_form {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    #tour_book_wrapper {
+        overflow: auto;
+    }
+    .parallax_overlay_header.tour {
+        position: fixed;
+    }
+    .tour_book_form_wrapper {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .one_half {
+        float: none;
+        width: 100%;
+        margin-right: 4%;
+    }
+   .one_half.last {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        clear: right;
+       margin-top: 20px;
+    }
+    .fancybox-next:after, .fancybox-next {
+        right:0 !important;
+    }
+}
+
+@media all and (max-width: 479px){
+    .fancybox-next:after, .fancybox-next {
+        right:0 !important;
+    }
+    /*header*/
+    #main_header {
+        padding-top: 20px;
+        text-align: center;
+        /*margin-bottom: 150px;*/
+    }
+    #main_header nav ul.nav {
+        display: none;
+    }
+    #main_header nav a#mobile_nav_icon {
+        display: block !important;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        border-bottom: 10px double #fff;
+        border-top: 3px solid #fff;
+        height: 17px;
+        width: 25px;
+        float: left;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        display: none;
+        cursor: pointer;
+    }
+    #main_header nav ul.mobile_menu {
+        width: 30%;
+        min-width: 150px;
+        position: absolute;
+        top: 75px;
+        background: rgba(0,0,0,0.7);
+        padding: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    #main_header nav ul.mobile_menu li{
+        list-style: none;
+        padding: 10px;
+        padding-left: 15px;
+    }
+    .phone {
+        display: none !important;
+    }
+    #main_header nav .social_share_wrapper {
+        right:20px;
+        top:-10px;
+    }
+    #main_header nav .social_share_wrapper ul li {
+        display: list-item;
+        padding-bottom: 5px;
+    }
+    #main_header div h1 {
+    font-size: 43px;
+    -webkit-text-stroke: 0.5px blue;
+    }
+    #main_header div h1>span{
+      font-size: 39px !important;
+    }
+    #main_header>div:nth-child(2) {
+    margin-top: 20vh;
+    }
+    #main_header > nav > img {
+      padding-right: 20px !important;
+    }
+    .timer {
+        min-width: 100%;
+        height: 155px;
+        overflow: hidden;
+        margin-top: 0;
+        left:50%;
+        transform: translateX(-50%);
+        margin-bottom: -155px;
+
+    }
+    .timer div {
+        min-width: 300px !important;
+        width: 300px;
+        margin: 0 auto;
+    }
+    #main_header div.timer p:first-child br{
+        display: block !important;
+    }
+
+    #main_header div.timer a {
+        margin-top: 100px;
+    }
+    #main_header div.timer div .timer-separator {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    /*Section 1*/
+    .tour_info {
+        height: auto;
+        border-bottom: none;
+    }
+    .tour_info div>div {
+        display: block;
+        height: 100px;
+        border-left: none;
+        border-bottom: 1px solid #AAA;
+        width: 100% !important;
+    }
+    .tour_info div>div:nth-child(2) span {
+          line-height: 45px;
+    }
+    .tour_info div>div:nth-child(3) {
+        padding-top: 0px;
+    }
+    .tour_info div>div:nth-child(4) span {
+          line-height: 45px;
+    }
+    .tour_info div>div:last-child {
+        border-right: none;
+        width: 100%;
+        /*padding-top: 20px;*/
+    }
+    .tour_info div>div p {
+        margin-top: 0px;
+    }
+    .tour_info div>div a {
+        display: block;
+        padding-top: 40px;
+    }
+    .video_box {
+        height: 190px;
+    }
+    /*Photo*/
+    #photos>div {
+        width: 95%
+    }
+    /*Reviews*/
+    #reviews div{
+        width: 95%;
+        margin: 0 auto 50px auto;
+    }
+    /*also*/
+    #tour_info:after {
+        display: none;
+    }
+    #also>.right_side>h3:before {
+        display: none;
+    }
+    #also>div {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    #also>div>h3>svg {
+        /*margin-top: 30px;*/
+        padding-bottom: 0;
+        padding-bottom: 0;
+        height: 66px;
+        margin-bottom: 5px;
+    }
+    #also .left_side {
+        padding-bottom: 0;
+    }
+    #also .right_side {
+        padding-top: 0;
+    }
+    /*buy*/
+    #buy div {
+       width: 300px;
+    }
+    #buy div p:nth-child(4) {
+        margin-bottom: 25px;
+    }
+    /*gallery*/
+    #gallery>div {
+        width: 95%;
+    }
+
+    footer .wrapper1 .for_footer {
+        display: block;
+        text-align: left;
+        vertical-align: top;
+        width: 240px !important;
+        margin: 20px auto;
+    }
+    footer .wrapper1 .for_footer h4 {
+        margin-bottom: 10px;
+    }
+    /*popup*/
+    .tour_book_form {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .tour_book_form_wrapper {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .one_half {
+        float: none;
+        width: 100%;
+        margin-right: 4%;
+    }
+   .one_half.last {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        clear: right;
+       margin-top: 20px;
+    }
+    .parallax_overlay_header.tour {
+        position: fixed;
+    }
+    #tour_book_wrapper {
+        overflow: auto;
+    }
+}
+.fancybox-skin {
+    background: none !important;
+    padding: 0 !important;
+}
+.tooltipster-sidetip .tooltipster-box {
+    border: 2px solid #565656 !important;
+}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border {
+    border-top-color: #565656 !important;
+}
+.fancybox-next:after, .fancybox-prev:after, .fancybox-close:after {
+    -webkit-transition: opacity 0.2s ease;
+    -moz-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    -ms-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+.fancybox-next:after, .fancybox-next {
+    /*margin-left: 39px;*/
+    font-family: "FontAwesome";
+    font-size: 40px;
+    display: block;
+    content: '\f105';
+    color: #fff;
+    font-weight: 300;
+    position: fixed;
+    top: 46%;
+    right: 17px;
+    opacity: 0.7;
+}
+.fancybox-prev:after, .fancybox-prev {
+    /*margin-left: 28px;*/
+    font-family: "FontAwesome";
+    font-size: 40px;
+    display: block;
+    content: '\f104';
+    color: #fff;
+    font-weight: 300;
+    position: fixed;
+    top: 46%;
+    left:0px;
+    opacity: 0.7;
+}
+.fancybox-close:after, .fancybox-close {
+    content: '×';
+    position: absolute;
+    top: -17px;
+    right: -1px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 8040;
+    color: white;
+    font-style: normal;
+    font-size: 29px;
+    opacity: 0.7;
+
+}
+
+.fancybox-next:hover, .fancybox-next:after{
+    opacity: 1;
+}
+.fancybox-prev:hover, .fancybox-prev:after{
+    opacity: 1;
+}
+.fancybox-close:hover, .fancybox-close:after{
+    opacity: 1;
+}
+.fancybox-close:hover, .fancybox-close, .fancybox-prev span:hover, .fancybox-next span:hover {
+    background-image: none !important;
+}
+.fancybox-nav:hover span {
+    visibility: hidden !important;
+}
+.fancybox-nav {
+    position: fixed !important;
+    width: 7% !important;
+}
