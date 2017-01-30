@@ -1,0 +1,243 @@
+.body {
+	font-family: "Arial";
+}
+.topline {
+  background-color: #E2E2E2;
+  height: 7px;
+}
+/*----------------header------------------*/
+.header {
+	height: 90px;
+	position: relative;
+}
+.header .logo {
+	position: absolute;
+	font-size: 42px;
+  font-family: "Pacifico";
+	color: #474747;
+	height: 60px;
+	width: 90px;
+	bottom: 0;
+	margin: auto;
+}
+.header .primnav {
+	position: absolute;
+	height: 50px;
+	width: 630px;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+.header .primnav a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	color: #474747;
+	line-height: 1.05;
+	margin-left: 6%
+}
+.header .primnav a:hover img {
+	display: block;
+}
+.header .primnav a img {
+	position: absolute;
+	margin-left: 20px;
+	top: -41px;
+	display: none;
+}
+.header .primnav a span {
+	font-size: 12px;
+	color: #A5A5A5;
+	line-height: 1.75;
+}
+
+/*-------------------Slider-------------------*/
+.slider {
+	height: 515px;
+	margin-bottom: 70px;
+}
+.slider ul {
+	padding: 0;
+	margin-top: 40px;
+	list-style: none;
+}
+.slider .bg-slider {
+	background: url(../img/slide1.png) no-repeat;
+	width: 940px;
+	height: 425px;
+}
+.slider .text-slider {
+  background-color: #FBFBFB;
+  width: 940px;
+  height: 95px;
+}
+.slider .text-slider p:first-child {
+	margin: 0;
+	padding: 18px 0 0 15px;
+	font-size: 16px;
+  color: #474747;
+  line-height: 1.313;
+}
+.slider .text-slider p:last-child {
+	margin-left: 15px;
+	font-size: 12px;
+  color: #474747;
+  line-height: 1.167;
+}
+/*pagination*/
+.rslides_tabs {
+	position: relative;
+	bottom: 110px;
+	left: 815px;
+	width: 120px;
+	list-style: none;
+	z-index: 2;
+}
+.rslides_tabs li {
+	float: left;
+	width: 23px;
+  height: 5px;
+	margin-right: 5px;
+	background: url(../img/pager.png) no-repeat;
+	text-indent: -3000px;
+
+}
+.rslides_tabs a {
+	display: block;
+}
+.rslides_here a {
+	background: url(../img/selectedpager.png) no-repeat;
+
+}
+/*-------------------Featured--------------------------*/
+
+
+.about .blocks>img{
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+.about .blocks>p:nth-child(2){
+	display: inline-block;
+	width: 220px;
+	margin: 0 0 20px 20px;
+	font-size: 20px;
+	color: #464646;
+	font-weight: bold;
+  line-height: 1.2;
+}
+.about .blocks p:nth-child(3), .about .blocks p.hiden{
+	font-size: 12px;
+  font-family: "HelveticaNeue", sans-serif;
+	color: #414141;
+	line-height: 1.5;
+
+}
+.about .blocks p:nth-child(3) {
+	width: 275px;
+	height: 119px;
+	margin: 10px 0 20px 0;
+}
+/*readmore*/
+img[alt="more"] {
+	display: inline-block;
+	margin-right: 10px;
+}
+.readmore {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	color: #474747;
+	margin: 0;
+	line-height: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.hiden {
+	display: none;
+}
+
+/*----------------------latest work-----------------*/
+.our_projects .line {
+	background: url(../img/divider.png) no-repeat;
+	height: 29px;
+	text-align: center;
+	margin: 65px 0 50px 10px;
+}
+.our_projects .line p {
+	display: inline-block;
+	width: 140px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #474747;
+	font-weight: bold;
+  line-height: 29px;
+	text-align: center;
+	background: white;
+}
+.our_projects .hoverimg {
+	position: absolute;
+	width: 224px;
+	height: 124px;
+	background: rgba(84, 81, 84, 0.7);
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	line-height: 124px;
+	display: block;
+ 	opacity: 0;
+	transition: all .3s ease-in-out;
+}
+.our_projects .item p:nth-child(3){
+	font-size: 14px;
+	color: #414141;
+	font-weight: bold;
+  line-height: 1.286;
+}
+.our_projects .item p:nth-child(4), .our_projects .item p.hiden{
+	font-size: 12px;
+  font-family: "HelveticaNeue", sans-serif;
+	color: #414141;
+	line-height: 1.5;
+}
+.our_projects .item p:nth-child(4) {
+	width: 212px;
+	height: 81px;
+	margin-bottom: 20px;
+}
+.our_projects .vallarta:hover>.hoverimg, .photoshop:hover>.hoverimg, .business:hover>.hoverimg, .website:hover>.hoverimg {
+	opacity: 1;
+}
+/*----------------------footer----------------------*/
+.footline {
+	background: url(../img/footline.png) repeat-x;
+	height: 5px;
+	width: 100%;
+	margin-top: 65px;
+}
+.footerbg {
+	background: #FBFBFB;
+	height: 70px;
+}
+
+.footerbg .container p {
+	height: 70px;
+	font-size: 12px;
+	font-family: "Myriad Pro";
+	color: #9B9B9B;
+	margin: 0;
+	line-height: 70px;
+}
+.footerbg .container p:first-child {
+	float: left;
+	width: 250px;
+	left: 0;
+}
+.footerbg .container p:last-child {
+	float: right;
+	width: 200px;
+	right: 0;
+}
+.footerbg .container p:last-child span {
+	color: black;
+}
