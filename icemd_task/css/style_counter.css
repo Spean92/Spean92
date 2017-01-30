@@ -1,0 +1,53 @@
+@font-face
+{
+	font-family: 'MyriadProRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/myriadpro-regular-webfont.eot?') format('eot'),
+		url('fonts/myriadpro-regular-webfont.woff') format('woff'),
+		url('.fonts/myriadpro-regular-webfont.ttf') format('truetype'),
+		url('fonts/myriadpro-regular-webfont.svg') format('svg');
+}
+.countbox
+{
+	color: forestgreen;
+	font-family: MyriadProRegular,Helvetica,sans-serif;
+	font-size: 400%;
+	height: 75px;
+	width: 90%;
+	padding: 3% 5% 0 5%;
+}
+.countbox .countbox-num
+{
+	float: left;
+}
+.countbox .countbox-space
+{
+	float: left;
+	height: 90px;
+	width: 7%;
+}
+.countbox-hours1,.countbox-mins1,.countbox-secs1,.countbox-hours2,.countbox-mins2,.countbox-secs2
+{
+	background-image: url('../img/counter-bg.png');
+	background-repeat: no-repeat;
+	float: left;
+	height: 75px;
+	width: 45px;
+	margin-right: -0.3%;
+	text-align: center;
+	z-index: 1;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 14px !important;
+	margin-top: 75px;
+	position: absolute;
+	text-align: center;
+	width: 85px;
+	font-size: 30%;
+	color: white;
+}
+

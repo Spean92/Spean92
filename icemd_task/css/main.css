@@ -1,0 +1,553 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url(../img/body-bg.png) repeat;
+  font-family: 'robotoregular';
+}
+.content {  
+  margin: 0 auto;
+	position: relative;
+}
+
+/*---------------------Header-------------------------*/
+.mainHeader{
+  background: url(../img/header-bg.png);
+}
+.mainHeader .content img {
+	width: 119px;
+	height: 125px;
+  margin-top: 15px;
+	vertical-align: top;
+}
+.mainHeader .content h1, .callback1, img {
+  display: inline-block;
+}
+.mainHeader .content h1 {
+  width: 43%;
+  padding-left: 10%;
+  margin-top: 2%;
+	margin-bottom: 2%;
+	vertical-align: top;
+  font-family: 'robotomedium';
+  font-size: 2.5em;
+  color: red;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 4px white;
+  text-align: center;
+}
+
+.mainHeader .content .callback1 {
+  width: 26%;
+	height: 115px;
+  padding-left: 6%;
+  text-align: center;
+  font-family: 'robotomedium';
+  font-size: 1.15em;
+  color: #333;
+	vertical-align: top;
+	margin-top: 3%;
+}
+.mainHeader .content .callback1 p {
+	margin: 0;
+}
+.mainHeader .content .callback1 span {
+  font-family: 'robotobold';
+  font-size: 160%;
+  color: #333;
+}
+.mainHeader .content .callback1 a{
+	color: #2274F0;
+	text-decoration: none;
+	border-bottom: dotted;
+}
+
+/*------------------------------------------------------*/
+/*-------------------First block------------------------*/
+#firstBlock {
+  background: url(../img/big-blue-bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 430px;
+	border: none;
+}
+#firstBlock .counter {
+  position: relative;
+  display: inline-block;
+	width: 485px;
+  height: 402px;
+  background: url(../img/ipad-bg.png) no-repeat;
+	background-size: cover;
+	top: 28px;
+}
+#firstBlock .counter .counter1 {
+  position: absolute;
+  bottom: 0;
+  left: 19%;
+  width: 76%;
+  height: 120px;
+  background-color: #223194;
+}
+#firstBlock .counter p {
+  position: absolute;
+  top: 15%;
+  width: 76%;
+  left: 19%;
+  margin: 0;
+	padding: 0;
+  font-family: 'robotocondensed';
+  font-weight: bolder;
+  font-size: 320%;
+  color: white;
+  text-align: center;
+}
+#firstBlock .fastForm {
+  display: inline-block;
+	position: relative;
+	top: 40px;
+	left: 5%;
+	vertical-align: top;
+	background-color: rgba(255, 255, 255, 0.5);
+  width: 380px;
+  height: 370px;
+}
+#firstBlock .fastForm p:first-child {
+  width: 90%;
+  margin: 2% auto;
+  font-size: 175%;
+  text-align: center;
+}
+#firstBlock .fastForm form div {
+	width: 89%;
+	margin: 3% auto;
+}
+#firstBlock .fastForm input[type="text"], input[type="tel"]{
+		width: 94%;
+    font-size: 150%;
+    padding: 2.4%;
+    margin-right: 0;
+    color: #139ADE;
+    border: 1px solid #139ADE;
+}
+
+::-webkit-input-placeholder {color:#139ADE;}
+::-moz-placeholder          {color:#139ADE;}/* Firefox 19+ */
+:-moz-placeholder           {color:#139ADE;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#139ADE;}
+
+input[type="image"] {
+	position: absolute;
+	right: 9%;
+	vertical-align: middle;
+	width: 2.5em;
+  height: 3.5em;
+}
+
+#firstBlock .fastForm input[type="submit"] {
+  display: block;
+  width: 89%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: red;
+  border: none;
+  color: white;
+  font-family: 'robotoregular';
+  font-size: 175%;
+  vertical-align: middle;
+}
+#firstBlock .fastForm p:last-child {
+  width: 95%;
+  margin: 3.5% auto;
+  font-size: 90%;
+  text-align: center;
+}
+/*------------------------------------------------*/
+/*------------------Second Block------------------*/
+#secondBlock {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+#secondBlock .content div {
+  display: inline-block;
+  vertical-align: top;
+  width: 24.5%;
+  height: 300px;
+  text-align: center;
+}
+#secondBlock .div2, .div3, .div4{
+		margin-left: -0.5%;
+
+}
+#secondBlock .content div img {
+  width: 110px;
+  height: 105px;
+	padding-top: 10%;
+}
+#secondBlock .div1 {
+  background: #fff;
+
+}
+#secondBlock .div1 p {
+  display: block;
+  width: 85%;
+  height: 70%;
+  font-family: 'robotobold';
+  font-size: 250%;
+  color: red;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 4px white;
+  margin: 20% auto;
+}
+#secondBlock .div2 h2, .div3 h2, .div4 h2 {
+  color: white;
+  font-family: 'robotolight';
+  font-size: 160%;
+	margin: 5%
+}
+#secondBlock .div2 p, .div3 p, .div4 p {
+  color: white;
+  font-size: 90%;
+	margin-top: 0;
+}
+
+#secondBlock .div2 {
+  background: rgba(20, 155, 222, 0.4);
+}
+
+#secondBlock .div3 {
+  background: rgba(20, 155, 222, 0.7);
+}
+#secondBlock .div4 {
+  background: #139ADE;
+}
+/*--------------------------------------------------*/
+.hr {
+  background: url(../img/hr.png) no-repeat;
+  width: 301px;
+  height: 10px;
+  margin: 25px auto;
+}
+
+/*------------------Third Block-----------------------*/
+
+#thirdBlock .left_section header {
+  font-family: 'robotobold';
+  font-size: 250%;
+  color: red;
+  text-transform: uppercase;
+}
+
+#thirdBlock .left_section {
+display: inline-block;
+  width: 47%;
+  height: 500px;
+}
+#thirdBlock .left_section .line {
+  background: url(../img/list-bottom-border.png) no-repeat;
+  width: 97%;
+  height: 5px;
+  margin: 0 auto;
+}
+#thirdBlock .left_section img {
+	display: inline-block;
+	width: 8%
+}
+#thirdBlock .left_section p {
+	display: inline-block;
+	width: 91%;
+  font-family: 'robotomedium';
+  color: #555;
+	font-size: 1.08em;
+	margin: 2% 0.5%;
+}
+#thirdBlock .right_section {
+  vertical-align: top;
+  display: inline-block;
+  width: 47%;
+  height: 480px;
+	margin-left: 5%;
+}
+#thirdBlock .right_section header {
+  font-family: 'robotobold';
+  font-size: 250%;
+  color: red;
+	padding: 2.5% 0 5% 0;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 4px black;   
+ 	text-align: center;
+}
+#thirdBlock .right_section .rewiev_content{
+		padding: 0;
+}
+#thirdBlock .right_section .rewiev_content li{
+    list-style: none;
+    position: absolute;
+		background-color: rgba(0,0,0, 0.1);
+		width: 100%;
+		height: 82%;
+}
+#thirdBlock .right_section .rewiev_content li img {
+		position: absolute;
+}
+#thirdBlock .right_section .rewiev_content li img[alt="ava"] {
+		border: 4px solid white;
+		border-radius: 50%;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		width: 30.5%;
+		height: 43%;
+		bottom: -20%;
+		left: 1.5%;
+}
+#thirdBlock .right_section .rewiev_content li img[alt="left"] {
+		left: 2%;
+		top: 4%;
+}
+#thirdBlock .right_section .rewiev_content li  img[alt="right"] {
+		right: 4%;
+		bottom: 20%;
+}
+#thirdBlock .right_section .rewiev_content li .rewiever_text {
+		padding: 0% 10% 0 17%;
+		font-family: 'Times New Roman';
+		font-style: italic;
+		font-weight: 600;
+		font-size: 1.4em;
+		color: #333;
+}
+#thirdBlock .right_section .rewiev_content li .rewiever_name {
+		padding: 7% 0 0 53%;
+		font-family: 'Times New Roman';
+		font-weight: 600;
+		font-size: 1.3em;
+		color: #666;
+}
+
+/*Slider*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+	height: 390px;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides div {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.rslides_tabs {
+	position: absolute;
+	right: 0;
+	bottom: -1%;
+  }
+.rslides_tabs li {
+  display: inline;
+  margin-right: 10px;
+  }
+.rslides_tabs a {
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ccc;
+  background: rgba(0,0,0, .2);
+  display: inline-block;
+  _display: block;
+  *display: block;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  width: 15px;
+  height: 15px;
+  }
+.rslides_here a {
+  background: #555FE0;
+  background: rgba(85, 95, 224, 0.8);
+  }
+/*----*/
+
+
+/*---------------------------------------------------*/
+/*-----------------------Fouth Block-----------------*/
+#fouthBlock {
+  background: url(../img/how-we-work-bg-blue.png);
+	background-size: cover;
+  position: relative;
+  height: 346px;
+  font-size: 175%;
+
+}
+#fouthBlock h2{
+    text-align: center;
+    color: white; 
+    padding-top: 3%;
+}
+#fouthBlock .content div {
+    position: relative;
+    display: inline-block;
+    width: 22%;
+    height: 190px;
+    padding: 1.2%;
+}
+#fouthBlock .content img {
+    position: absolute;
+}
+#fouthBlock .content img[alt="arrow"]{
+    left: 82%;
+}
+#fouthBlock .content p {
+    text-align: center;
+    font-family: 'robotomedium';
+    color: black;
+    font-size: 70%;
+    transform: rotate(-2.5deg);
+    margin-top: 67%;
+}
+
+/*----------------------------------------------------*/
+/*---------------------Fith Block---------------------*/
+#fithBlock {
+  background: url(../img/footer-bg.png) repeat-x;
+	height: 175px;
+	margin-top: -2.5%;
+}
+#fithBlock .content img {
+	width: 119px;
+	height: 125px;
+  margin-top: 3%;
+	vertical-align: top;
+}
+#fithBlock .content h1, .callback1, img {
+  display: inline-block;
+}
+#fithBlock .content h1 {
+  width: 42%;
+  padding-left: 10%;
+  margin-top: 4%;
+	vertical-align: top;
+  font-family: 'robotomedium';
+  font-size: 2.5em;
+  color: red;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 4px white;
+  text-align: center;
+}
+
+#fithBlock .content .callback1 {
+  width: 26%;
+	height: 115px;
+  padding-left: 6%;
+  text-align: center;
+  font-family: 'robotomedium';
+  font-size: 1.15em;
+  color: #333;
+	vertical-align: top;
+	margin-top: 5%;
+}
+#fithBlock .content .callback1 p {
+	margin: 0;
+}
+#fithBlock .content .callback1 span {
+  font-family: 'robotobold';
+  font-size: 160%;
+  color: #333;
+}
+#fithBlock .content .callback1 a{
+	color: #2274F0;
+	text-decoration: none;
+	border-bottom: dotted;
+}
+/*-----------------------------------------------------*/
+/*----------------------Sixth Block--------------------*/
+#sixthBlock .content .last_callback {
+	height: 430px;
+}
+#sixthBlock .content .last_callback h2 {
+	margin-top: 1%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-size: 2.5em;
+	color: #444;
+}
+#sixthBlock .content .last_callback h2 span {
+	color: #E62C2C;
+}
+#sixthBlock .content .last_callback p {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 600;
+	color: #005299;
+}
+#sixthBlock .content .last_callback .bot_form {
+	width: 56%;
+	height: 150px;
+	margin: 0 auto;
+}
+#sixthBlock .content .last_callback .bot_form input[type="text"], input[type="email"] {
+	font-size: 1.3em;
+	padding: 0.5%;
+	margin: 0 1%
+}
+#sixthBlock .content .last_callback .bot_form textarea {
+	font-size: 1.3em;
+	margin: 2% 1.5%;
+	width: 96%
+}
+#sixthBlock .content .last_callback .bot_form input[type="submit"] {
+	margin: 2% 37%;
+	font-size: 1.5em;
+	color: #1594D4;
+}
+
+/*------------------------------------------------------*/
+/*------------------------foot Block--------------------*/
+#footer .content {
+  height: 50px;
+	font-weight: 600;
+	color: #555;
+}
+#footer .content .my_block {
+  width: 285px;
+  margin: 1% auto;
+	text-align: center;
+
+}
+
+/*---------------------------------------------------------*/
+.clearfix {
+  float: none;
+    
+}
+
+.main_rewiev {
+position: relative;
+}
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: rgba(19, 154, 222, 0.6);
+  color: #fff;
+	border-radius: 50%;
+}

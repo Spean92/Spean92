@@ -1,0 +1,361 @@
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+	
+	.content { 
+  width: 960px;
+}
+}
+
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+	
+	.content { 
+  width: 800px;
+}
+	.mainHeader .content h1 {
+	padding-left: 1%;
+	width: 50%;
+	font-size: 2em;
+	}
+	.mainHeader .content .callback1 {
+	width: 30%;
+	padding-left: 1%;
+	font-size: 1em;
+	}
+	
+	/*----------------First block------------------*/
+	/*---------------------------------------------*/
+	#firstBlock {
+		height: 355px;
+	}
+	#firstBlock .counter {
+		width: 50%;
+  	height: 327px;
+	}
+	#firstBlock .counter p{
+		width: 70%;
+		font-size: 240%;
+		padding: 7% 3%;
+	}
+	.countbox-hours1,.countbox-mins1,.countbox-secs1,.countbox-hours2,.countbox-mins2,.countbox-secs2
+	{
+	width: 39px;
+	}
+	
+	#firstBlock .fastForm {
+		top: 30px;
+		width: 40%;
+		height: 300px;
+		
+	}
+	#firstBlock .fastForm p:first-child {
+		font-size: 150%;
+	}
+	#firstBlock .fastForm input[type="text"], input[type="tel"]{
+		font-size: 130%;
+	}
+	input[type="image"] {
+		height: 3em;
+	}
+	#firstBlock .fastForm input[type="submit"] {
+		font-size: 130%;
+		height: 40px;
+	}
+	/*----------------Second block------------------*/
+	/*---------------------------------------------*/
+	#secondBlock .content div {
+		height: 275px;
+	}
+	#secondBlock .content div img {
+		width: 50%;
+		height: 35%;
+	}
+	#secondBlock .div1 p {
+		font-size: 210%;
+	}
+	#secondBlock .div2 h2, .div3 h2, .div4 h2 {
+		font-size: 145%;
+	}
+	#secondBlock .div2 p, .div3 p, .div4 p {
+		font-size: 80%;
+	}
+	/*----------------Third block------------------*/
+	/*---------------------------------------------*/
+	#thirdBlock .right_section .rewiev_content li img[alt="ava"] {
+		height: 36%
+	}
+	#thirdBlock .right_section .rewiev_content li .rewiever_text {
+		font-size: 1.3em;
+		padding: 0% 5% 0 17%;
+	}
+	#thirdBlock .right_section .rewiev_content li .rewiever_name {
+		padding-top: 2%;
+	}
+	/*----------------Fouth block------------------*/
+	/*---------------------------------------------*/
+	#fouthBlock .content div {
+		width: 24%;
+		padding: 0;
+	}
+	#fouthBlock .content img {
+		transform: scale(0.85, 0.85);
+	}
+	#fouthBlock .content img[alt="arrow"]{
+		top: 6%;
+		left: 84%;
+	}
+	#fouthBlock .content p {
+		margin-left: 13%;
+	}
+	/*-----------------Fith block------------------*/
+	/*---------------------------------------------*/
+	#fithBlock .content h1 {
+	padding-left: 1%;
+	margin-top: 5%;
+	width: 50%;
+	font-size: 2em;
+	}
+	#fithBlock .content .callback1 {
+	margin-top: 6%;
+	width: 30%;
+	padding-left: 1%;
+	font-size: 1em;
+	}
+	/*-----------------Sixth block------------------*/
+	/*---------------------------------------------*/
+	#sixthBlock .content .last_callback .bot_form {
+		width: 67%;
+	}
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+@media screen and (min-width: 540px) and (max-width: 799px) {
+		
+	.content { 
+  width: 540px;
+}
+	.mainHeader .content h1 {
+	padding: 0;
+	width: 77%;
+	}
+	.mainHeader .content .callback1 {
+	display: none;
+	}
+	/*----------------First block------------------*/
+	/*---------------------------------------------*/
+	#firstBlock {
+		height: 835px;
+	}
+	#firstBlock .fastForm {
+		top: 40px;
+		left: 16%
+	}
+	/*----------------Second block------------------*/
+	/*---------------------------------------------*/
+	#secondBlock .content div {
+		width: 47%;
+		margin: 1%;
+	}
+	/*----------------Third block------------------*/
+	/*---------------------------------------------*/
+	#thirdBlock .left_section {
+		width: 94%;
+		height: 440px;
+		margin: 0 3%;
+	}
+	#thirdBlock .right_section {
+		width: 94%;
+		margin: 0 3%;
+	}
+	/*----------------Fouth block------------------*/
+	/*---------------------------------------------*/
+	#fouthBlock {
+		background: url(../img/how-we-work-blue/how-we-work-bg.jpg);
+		height: 520px
+	}	
+		#fouthBlock .content div {
+		width: 44%;
+		padding: 2%;
+	}
+	#fouthBlock .content img[alt="arrow"]{
+    left: 80%;
+}
+	#fouthBlock .content .arrow {
+		display: none;
+	}
+	#fouthBlock .content p {
+		margin-top: 58%;
+	}
+	/*----------------Fith block------------------*/
+	/*---------------------------------------------*/
+	#fithBlock .content h1 {
+	margin-top: 5%;
+	padding: 0;
+	width: 77%;
+	}
+	#fithBlock .content .callback1 {
+	display: none;
+	}
+	/*----------------Sixth block------------------*/
+	/*---------------------------------------------*/
+	#sixthBlock .content .last_callback {
+	height: 485px;
+}
+	#sixthBlock .content .last_callback .bot_form {
+		width: 99%;
+		height: 240px
+	}
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+
+@media screen and (max-width: 539px) {
+	
+	.content { 
+  width: 320px;
+}
+	.mainHeader .content>img, .callback1  {
+		display: none;
+	}
+
+	.mainHeader .content h1 {
+	padding: 0;
+	width: 99%;
+	font-size: 2em;
+	}
+	.mainHeader .content .callback1 {
+	display: none;
+	}
+	/*----------------First block------------------*/
+	/*---------------------------------------------*/
+	#firstBlock {
+		height: 835px;
+	}
+	#firstBlock .counter {
+		background-size: contain;
+		width: 99%;
+		height: 260px;
+	}
+	#firstBlock .counter .counter1 {
+		height: 90px;
+		width: 74%;
+	}
+	#firstBlock .counter p{
+		width: 70%;
+		font-size: 200%;
+		padding: 0 3%;
+	}
+	.countbox .countbox-space {
+		width: 5%
+	}
+		.countbox-hours1,.countbox-mins1,.countbox-secs1,.countbox-hours2,.countbox-mins2,.countbox-secs2	{
+		width: 31px;
+		height: 55px;
+	}
+	.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+		margin-top: 61px;
+		width: 70px;
+	}
+	.countbox {
+		height: 50px;
+		font-size: 300%
+	}
+	#firstBlock .fastForm {
+		top: 40px;
+		left: -9%
+	}
+	/*----------------Second block------------------*/
+	/*---------------------------------------------*/
+	#secondBlock .content div {
+		width: 47%;
+		margin: 1%;
+	}
+		#secondBlock .div1 p {
+		font-size: 170%;
+			margin: 40% auto;
+	}
+	/*----------------Third block------------------*/
+	/*---------------------------------------------*/
+	#thirdBlock .left_section {
+		width: 94%;
+		height: 440px;
+		margin: 0 3%;
+	}
+	#thirdBlock .right_section {
+		width: 94%;
+		margin: 0 3%;
+		height: 580px;
+	}
+	#thirdBlock .right_section .rewiev_content{
+		height: 650px;
+	}
+	#thirdBlock .right_section .rewiev_content li{
+		height: 70%;
+	}
+	#thirdBlock .right_section .rewiev_content li img[alt="ava"] {
+		height: 23%;
+		bottom: -10%;
+	}
+.rslides_tabs {
+	position: absolute;
+	right: 0;
+	bottom: 20%;
+  }
+	
+	/*----------------Fouth block------------------*/
+	/*---------------------------------------------*/
+	#fouthBlock {
+		background: url(../img/how-we-work-blue/how-we-work-bg.jpg);
+		height: 520px
+	}	
+		#fouthBlock .content div {
+		width: 43%;
+		padding: 1%;
+	}
+		#fouthBlock .content img {
+		transform: scale(0.6, 0.6);
+	}
+	#fouthBlock .content img[alt="arrow"]{
+    left: 97%;
+		top: 15%
+}
+	#fouthBlock .content .arrow {
+		display: none;
+	}
+	#fouthBlock .content p {
+		position: relative;
+		margin-top: 88%;
+		left: 30%;
+		font-size: 50%
+	}
+	/*----------------Fith block------------------*/
+	/*---------------------------------------------*/
+	#fithBlock .content h1 {
+	padding: 0;
+	width: 99%;
+	font-size: 2em;
+	}
+	#fithBlock .content>img, .callback1  {
+		display: none;
+	}
+	/*----------------Sixth block------------------*/
+	/*---------------------------------------------*/
+	#sixthBlock .content .last_callback {
+	height: 525px;
+}
+	#sixthBlock .content .last_callback .bot_form {
+		width: 99%;
+		height: 265px
+	}
+	#sixthBlock .content .last_callback .bot_form textarea {
+		width: 77%;
+		margin: 10px 10%;
+	}
+	#sixthBlock .content .last_callback .bot_form input[type="text"], input[type="email"] {
+	margin: 0 10%;
+	}
+	#sixthBlock .content .last_callback .bot_form input[type="submit"] {
+		margin: 2% 28%;
+	}
+
+}
